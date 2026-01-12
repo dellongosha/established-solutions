@@ -1,0 +1,22 @@
+# Robots.txt for Established Solutions
+# Allow search engines to crawl and index the site
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /.next/
+Disallow: /private/
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Crawl delay (optional - adjust if needed)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://established.co.zw/sitemap.xml
