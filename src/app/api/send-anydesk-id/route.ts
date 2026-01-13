@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import sgMail from "@sendgrid/mail";
+import { MailDataRequired } from '@sendgrid/mail';
 
 export async function POST(req: Request) {
   try {
@@ -46,7 +47,7 @@ export async function POST(req: Request) {
           </ul>
         `;
 
-        const msg: any = {
+        const msg: MailDataRequired = {
           to: SUPPORT_EMAIL,
           from: FROM_EMAIL,
           subject: `Remote Support Request — AnyDesk ID ${id}`,
