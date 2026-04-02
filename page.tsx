@@ -26,7 +26,7 @@ const MENU: MenuItem[] = [
   { label: "Home", href: "#top" },
   { label: "Services", href: "#services" },
   { label: "About Us", href: "#about_us" },
-  { label: "071 587 4747", href: "tel:+263715874747" },
+  { label: "077 125 4430", href: "tel:+263771254430" },
 ];
 
 // Unused legacy categories — kept for reference
@@ -807,7 +807,7 @@ export default function Home() {
       {/* Direct Contact Buttons */}
       <div className="flex flex-col sm:flex-row gap-4">
         <a
-          href="https://wa.me/263715874747"
+          href="https://wa.me/263771254430"
           target="_blank"
           rel="noopener noreferrer"
           className="flex-1 px-6 py-3 bg-green-500 text-white font-semibold rounded-xl shadow-lg hover:bg-green-600 transition text-center"
@@ -816,7 +816,7 @@ export default function Home() {
         </a>
 
         <a
-          href="tel:+263715874747"
+          href="tel:+263771254430"
           className="flex-1 px-6 py-3 bg-[#0992E9] text-white font-semibold rounded-xl shadow-lg hover:bg-blue-800 transition text-center"
         >
           Call Us
