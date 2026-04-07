@@ -56,8 +56,8 @@ export default function Home() {
           </button>
           {/* Desktop call link on right */}
           <div className="hidden md:flex items-center ml-4">
-            <a href="tel:+263715874747" className="px-4 py-2 bg-blue-50 text-blue-700 rounded-md border border-blue-100 hover:bg-blue-100 transition">
-              📞 +263 715 874 747
+            <a href="tel:+263771254430" className="px-4 py-2 bg-blue-50 text-blue-700 rounded-md border border-blue-100 hover:bg-blue-100 transition">
+              📞 +263 771 254 430
             </a>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Home() {
             <a href="#top" className="hover:text-blue-600">Home</a>
             <a href="#find-expert" className="hover:text-blue-600">Services</a>
             <a href="#services" className="hover:text-blue-600">Expertise</a>
-            <a href="tel:+263715874747" className="hover:text-blue-600">Call: +263 715 874 747</a>
+            <a href="tel:+263771254430" className="hover:text-blue-600">Call: +263 771 254 430</a>
           </nav>
         )}
       </header>
@@ -404,11 +404,11 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col gap-4">
-              <a href="https://wa.me/263715874747" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition text-center">
+              <a href="https://wa.me/263771254430" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-green-500 text-white font-bold rounded-lg hover:bg-green-600 transition text-center">
                 WhatsApp Us
               </a>
-              <a href="tel:+263715874747" className="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition text-center">
-                Call Us: +263 715 874 747
+              <a href="tel:+263771254430" className="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition text-center">
+                Call Us: +263 771 254 430
               </a>
               <a href="mailto:info@established.co.zw" className="px-6 py-3 bg-gray-800 text-white font-bold rounded-lg hover:bg-gray-900 transition text-center">
                 Email Us
@@ -460,7 +460,7 @@ export default function Home() {
           <nav className="flex gap-6 text-sm items-center">
             <a href="#" className="hover:text-white">Privacy</a>
             <a href="#" className="hover:text-white">Terms</a>
-            <a href="tel:+263715874747" className="hover:text-white">Call: +263 715 874 747</a>
+            <a href="tel:+263771254430" className="hover:text-white">Call: +263 771 254 430</a>
           </nav>
         </div>
       </footer>
