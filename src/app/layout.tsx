@@ -96,11 +96,11 @@ export default function RootLayout({
     address: {
       "@type": "PostalAddress",
       addressCountry: "ZW",
-      telephone: "+263715874747",
+      telephone: "+263771254430",
     },
     contactPoint: {
       "@type": "ContactPoint",
-      telephone: "+263715874747",
+      telephone: "+263771254430",
       contactType: "Customer Support",
       email: "info@established.co.zw",
     },
